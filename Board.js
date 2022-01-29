@@ -13,7 +13,7 @@ class Board {
 
     this.width = width;
     this.height = height;
-    this.image = loadImage("./assets/board.png");
+    this.image = loadImage("board.png");
 
     World.add(world, this.body);
   }
